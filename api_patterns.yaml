@@ -1,0 +1,13 @@
+api_keys:
+  # === ANTHROPIC / CLAUDE API KEY — HIGH PRECISION PATTERNS ===
+  
+  Anthropic API Key: "\\bsk-ant-(?:api03|oat01)-[a-zA-Z0-9_-]{90,120}\\b"
+  
+  Anthropic Env Var: "(?i)(?:ANTHROPIC_API_KEY|CLAUDE_API_KEY|ANTHROPIC_KEY|ANTHROPIC_API)\\s*[:=]\\s*[\"']?\\s*(sk-ant-[a-zA-Z0-9_-]{50,})[\"']?\\b"
+  
+  Anthropic Code Context: "(?i)(?:api[_-]?key|authorization|bearer|claude|anthropic)[\"'\\s:=>,]+[\"']?\\s*(sk-ant-[a-zA-Z0-9_-]{50,})[\"']?\\b"
+  
+  Anthropic HTTP Header: "(?i)authorization:\\s*bearer\\s+sk-ant-(?:api03|oat01)-[a-zA-Z0-9_-]{50,}\\b"
+  
+  Anthropic In URL: "(?i)https?://[^\\s]*?sk-ant-[a-zA-Z0-9_-]{50,}[^\\s]*"
+
