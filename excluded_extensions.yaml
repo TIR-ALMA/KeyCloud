@@ -1,0 +1,20 @@
+excluded_extensions:
+  
+  - jpg - jpeg - png - gif - bmp - webp - svg - svgz - ico - tiff - tif
+  - mp4 - m4v - mov - qt - avi - wmv - webm - mpg - mpeg - mpe - divx
+  - mp3 - m4a - m4r - m4p - m4b - wav - wma - ra - ram - ogg - mid - midi
+  - pdf - doc - docx - xls - xlsx - ppt - pptx - odt - ods - odp - odg
+  - exe - dll - so - dylib - bin - class - jar - war - ear - pkg - dmg - msi
+  - zip - tar - gz - gzip - bz2 - xz - rar - 7z - iso - img
+  
+  - woff - woff2 - eot - ttf - otf
+  
+  - log - tmp - temp - swp - swn - swo - bak - old - orig - rej
+  - lock - pid - state - cache - db - sqlite - sqlitedb
+  
+  - min.js - min.css - map - gen - generated
+  
+  - icns - cur - ani - webmanifest
+  
+  - crash - dmp - pdb -ilk - exp - lib - a - obj - o
+
