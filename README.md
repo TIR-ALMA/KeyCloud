@@ -1,2 +1,2 @@
 # KeyCloud
-KeyCloud is a powerful tool designed to detect Anthropic API key leaks from subdomains and archived URLs.
+This is a discovery from a wonderful project: https://github.com/bigzooooz/KeyHunter but it's entirely focused on the Anthropic API key. In the first version, only two files changed.
